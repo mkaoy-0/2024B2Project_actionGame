@@ -1,0 +1,99 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3269714397064036174
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2845035096025953865}
+  - component: {fileID: 1132055685728485650}
+  - component: {fileID: 3239826440653347304}
+  - component: {fileID: 928472959048016677}
+  - component: {fileID: 3875123880908647334}
+  m_Layer: 0
+  m_Name: UIController
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 2147483647
+  m_IsActive: 1
+--- !u!4 &2845035096025953865
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269714397064036174}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -9.728781, y: 33.99397, z: -22.218288}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1132055685728485650
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269714397064036174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8294fde33f0ad9469b08a9371591d16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  weather: {fileID: 0}
+  sun: {fileID: -1011731865, guid: 6d9a61d3e5e301c48aca968576503b1d, type: 3}
+  rain: {fileID: -2020878335, guid: 6d9a61d3e5e301c48aca968576503b1d, type: 3}
+  night: {fileID: -1645459005, guid: 6d9a61d3e5e301c48aca968576503b1d, type: 3}
+  item: {fileID: 0}
+  life: {fileID: 0}
+--- !u!114 &3239826440653347304
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269714397064036174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f93772b381ee7b43932c46219e8b2d8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookClosingTimeMeasurement: {fileID: 0}
+  time: {fileID: 0}
+  threshold: 10
+--- !u!114 &928472959048016677
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269714397064036174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47158bde0d3ec764491a1d03d43a58fe, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bookClosingTimeMeasurement: {fileID: 0}
+  gameOverPanel: {fileID: 0}
+  fadeDuration: 2
+--- !u!114 &3875123880908647334
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3269714397064036174}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9179f076080cdef4788d9f773ca55a65, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameClearPanel: {fileID: 0}
+  fadeDuration: 2

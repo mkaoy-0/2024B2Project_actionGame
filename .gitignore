@@ -1,0 +1,69 @@
+# ==========================================
+# 1. Unity標準の不要ファイル（絶対に除外するもの）
+# ==========================================
+[L.l]ibrary/
+[T.t]emp/
+[O.o]bj/
+[B.b]uild/
+[B.b]uilds/
+[L.l]ogs/
+[U.u]ser[S.s]ettings/
+[M.m]emory[C.c]aptures/
+
+# Visual Studio / VS Code / Rider 等の設定ファイル
+.vs/
+.idea/
+*.csproj
+*.sln
+*.unityproj
+
+# OS固有の不要ファイル
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# 2. アセットストア・サードパーティ素材の除外（重要）
+# ==========================================
+# Assetsフォルダ内の特定のフォルダを除外したい場合：
+Assets/ChestFree/
+Assets/EzTornado/
+Assets/FourEvilDragonsHP/
+Assets/FREE Parallax Forest Background HQ/
+Assets/Hovl Studio/
+Assets/Images/
+Assets/LightRays2D/
+Assets/LowPolyDungeonsLite/
+Assets/Modern GDR - Free icons pack/
+Assets/Polytope Studio/
+Assets/RainParticle/
+Assets/RPG Monster DUO PBR Polyart/
+Assets/RPG Swords/
+Assets/Runemark Studio/
+Assets/SimpleLowPolyNature/
+Assets/SkySeries Freebie/
+Assets/Sounds/
+Assets/_TerrainAutoUpgrade/
+Assets/Fonts/
+
+Assets/ChestFree.meta
+Assets/EzTornado.meta
+Assets/FourEvilDragonsHP.meta
+Assets/FREE Parallax Forest Background HQ.meta
+Assets/Hovl Studio.meta
+Assets/Images.meta
+Assets/LightRays2D.meta
+Assets/LowPolyDungeonsLite.meta
+Assets/Modern GDR - Free icons pack.meta
+Assets/Polytope Studio.meta
+Assets/RainParticle.meta
+Assets/RPG Monster DUO PBR Polyart.meta
+Assets/RPG Swords.meta
+Assets/Runemark Studio.meta
+Assets/SimpleLowPolyNature.meta
+Assets/SkySeries Freebie.meta
+Assets/Sounds.meta
+Assets/_TerrainAutoUpgrade.meta
+Assets/Fonts.meta
+
+# ビルド出力フォルダ
+WindowsRelease_ver.0/
