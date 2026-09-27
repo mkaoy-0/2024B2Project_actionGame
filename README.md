@@ -9,6 +9,5 @@ https://mkaoy-portfolio.vercel.app/works/B3_zemi_action.html
 - 動作環境: Windows, 専用ハード
 
 ## 注意事項（アセットについて）
-本リポジトリは GitHub の利用規約および各ライセンスに基づき、
-Unity Asset Store 等で購入・取得したサードパーティ製アセット（3Dモデル・BGM・エフェクト等）を `.gitignore` により除外しております。
-自作スクリプトおよびシーン設定は `Assets/Scripts/` 以下に格納されています。
+- 本リポジトリは GitHub の利用規約および各ライセンスに基づき、Unity Asset Store 等で購入・取得したサードパーティ製アセット（3Dモデル・BGM・エフェクト等）を `.gitignore` により除外しております。
+- 自作スクリプトは `Assets/Scripts/` 以下に格納されています。
